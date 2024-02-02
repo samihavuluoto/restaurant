@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Didot";
+    src:
+    url("didot-ssv/Didot\ Regular.ttf") format("truetype"),
+    url("didot-ssv/Didot\ Medium.ttf") format("truetype"),
+    url("didot-ssv/Didot\ Bold\ Italic.ttf") format("truetype"),
+    url("didot-ssv/Didot\ LT\ Std\ Bold.otf") format("opentype"),
+    url("didot-ssv/Didot\ LT\ Std\ Italic.otf") format("opentype"),
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 10px;
+    font-family: "Didot";
+}
+
+body {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: 2fr 15fr 1fr;
+    margin: 0;
+    background-image: url(restaurant.jpg);
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+header button {
+    padding: 10px 20px;
+    font-size: 3rem;
+    color: rgb(202, 160, 96);
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+}
+
