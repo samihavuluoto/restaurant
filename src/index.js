@@ -1,6 +1,6 @@
 import "./style.css";
-import { createContent } from "./content.js";
+import createHome from "./home.js";
 
-createContent();
+createHome();
 
 console.log("testing");

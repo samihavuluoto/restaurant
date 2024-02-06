@@ -1,4 +1,4 @@
-function createContent() {
+function createHomeContent() {
     const header = document.createElement("h2");
     const paragraph = document.createElement("p");
 
@@ -9,4 +9,4 @@ function createContent() {
     document.getElementById("content").appendChild(paragraph);
 }
 
-export { createContent };
+export default createHomeContent;
