@@ -10,6 +10,7 @@ function createAboutContent() {
     document.getElementById("content").appendChild(paragraph1);
 
     paragraph2.textContent = "Contact reservations@onkalo.com to book your culinary experience.";
+    paragraph2.id = "paragraph2";
     document.getElementById("content").appendChild(paragraph2);
 }
 
